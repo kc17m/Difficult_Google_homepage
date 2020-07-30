@@ -19,7 +19,7 @@ li {
 
 }
 
-
+/*
 
 
 
@@ -44,11 +44,13 @@ li {
             color: black;
             }
 
+*/
+
 
 #Apps {
 width: 20px;
 height: 20px;
-padding-right: 10px;
+padding-right: 25px;
 }
 
 #anmelden{
@@ -60,7 +62,7 @@ padding-right: 10px;
     
     }
 
-    #Bilder {
+   /* #Bilder {
         text-decoration: none;
         color: black;
         padding: 10px;
@@ -80,25 +82,29 @@ padding-right: 10px;
         text-decoration: underline;
         color: black;
         }
-
-.Logo {
-    text-align: center;
-    padding-top: 109px;
+*/
+.upperpart {
+    /*text-align: center;*/
+   padding: 25px;
+   
     
 }
-
+/*
 .textinput {
-    text-align: center;
+    padding-left: 200px;
 }
+*/
 
 input[type=search] {
     display: inline-block;
     border-color: rgba(223,225,229,0);
     border: 1px solid #dfe1e5;
     border-radius: 25px;
+    margin-left: 25px;
     padding: 13px;
     box-sizing: border-box;
     width: 50em;
+    
 
 }
 
@@ -130,8 +136,105 @@ input[type=submit]:hover {
 
 }
 
+.smallbuttons {
+padding: 150px;
+font-size: 13px;
+
+}
+#Alle {
+padding: 15px;
+}
+
+#Alle:hover {
+    color:blue;
+}
+
+#News {
+    padding: 15px;
+    }
+    
+    #Alle:hover {
+        color:blue;
+    }
+
+#News {
+  padding: 15px;
+        }
+        
+#News:hover {
+            color:blue;
+        }
+
+#Maps {
+    padding: 15px;
+            }
+            
+#Maps:hover {
+                color:blue;
+            }
 
 
+
+#Videos {
+    padding: 15px;
+                      }
+                      
+#Videos:hover {
+       color:blue;
+                      }
+
+                      
+
+#Shopping {
+        padding: 15px;
+               }
+                              
+#Shopping:hover {
+    color:blue;
+        }
+
+                              
+#Mehr {
+     padding: 15px;
+        }
+                                                      
+     #Mehr:hover {
+    color:blue;
+            }
+#Einstellungen {
+    padding: 15px;
+        }
+                                                                                                         
+    #Einstellungen:hover {
+        color:blue;
+    }
+
+#Suchfilter {
+            padding: 15px;
+               }
+
+  #Suchfilter:hover {
+       color:blue;
+  }
+ 
+.line {
+    color:grey;
+    border-top: 1px grey;
+    
+
+
+
+}
+  
+.bodyupper {
+line-height: 43px;
+font-size: 14px;
+color: grey;
+padding-left: 150px;
+
+
+
+}
 
 /*
 .buttons  {
@@ -156,6 +259,7 @@ input[type=submit]:hover {
     width: 60px;
     height: 40px;
     padding-top: 10px;
+    margin-left: 20px;
 
 }
 
@@ -165,6 +269,7 @@ input[type=submit]:hover {
     color: black;
     text-decoration: none;
     width: 99%;
+    margin-left: 30px;
 
 }
 
@@ -174,6 +279,8 @@ input[type=submit]:hover {
     color: white;
     padding: 10px;
     border-radius: 8px;
+    margin-right:
+    
 }
 
 #erinnern {
@@ -181,6 +288,7 @@ input[type=submit]:hover {
     color: rgb(66, 133, 224);
     cursor: pointer;
     padding-right: 15px;
+    margin-left: 120px;
 
 }
 
@@ -190,7 +298,102 @@ input[type=submit]:hover {
     background-color: rgba(153,153,153,.2);
     box-sizing: border-box;
     border-radius: 8px;
-    padding: 10px;
+    ;
 
 
 }
+
+.footer {
+    border: 1px solid;
+    border-radius: 15px;
+    padding-bottom: 24px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-left: 200px;
+    margin-right: 1000px;
+    
+}
+
+.Seitentext {
+    margin-left: 200px;
+}
+
+.linkabove{
+    font-size: 14px;
+    padding-top: 1px;
+    line-height: 1.3;
+}
+
+.arrow {
+    height: 20px;
+}
+
+.uebersetzen {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1a0dab;
+}
+
+.uebersetzen:hover {
+text-decoration: underline;
+
+}
+
+.linkhead {
+    font-size: 20px;
+    color: #1a0dab;
+    margin-bottom: 3px;
+    margin-top: 8px;
+}
+
+.linkhead:hover {
+    text-decoration: underline;
+    
+}
+
+.normaltext {
+    margin-right: 1000px;
+    color: rgb(95, 93, 93);
+    font-size: 14px;
+}
+
+h1 {
+    color: #222;
+    font-size: 20px;
+    line-height: 1.3;
+
+
+
+}
+
+.lupe {
+    height: 20px;
+}
+
+.bottomlist {
+    text-decoration: none;
+    color:  #1a0dab;
+    font-size: 16px;
+
+}
+
+.bottomlist:hover {
+    text-decoration: underline;
+    
+
+}
+
+.bottomlogo {
+    margin-left: 200px;
+
+
+
+    #number {
+color:  #1a0dab;
+text-
+
+}
+
+
+}
+
