@@ -100,7 +100,7 @@ input[type=search] {
     border-color: rgba(223,225,229,0);
     border: 1px solid #dfe1e5;
     border-radius: 25px;
-    margin-left: 25px;
+    margin-left: 75px;
     padding: 13px;
     box-sizing: border-box;
     width: 50em;
@@ -137,12 +137,12 @@ input[type=submit]:hover {
 }
 
 .smallbuttons {
-padding: 150px;
+
 font-size: 13px;
 
 }
 #Alle {
-padding: 15px;
+padding-right: 15px;
 }
 
 #Alle:hover {
@@ -210,27 +210,34 @@ padding: 15px;
     }
 
 #Suchfilter {
-            padding: 15px;
+            padding: 10px;
                }
 
   #Suchfilter:hover {
        color:blue;
+       background-color: #f8f8f8;
+       border: solid 1px #c6c6c6;
   }
  
 .line {
     color:grey;
     border-top: 1px grey;
+}
     
 
-
+.video-preview {
+    display: flex;
+    flex-wrap: nowrap;
 
 }
+
+
   
 .bodyupper {
 line-height: 43px;
 font-size: 14px;
 color: grey;
-padding-left: 150px;
+
 
 
 
@@ -361,6 +368,7 @@ h1 {
     color: #222;
     font-size: 20px;
     line-height: 1.3;
+    font-weight: lighter;
 
 
 
@@ -384,15 +392,7 @@ h1 {
 }
 
 .bottomlogo {
-    margin-left: 200px;
-
-
-
-    #number {
-color:  #1a0dab;
-text-
-
-}
+    margin-left: 200px; 
 
 
 }
