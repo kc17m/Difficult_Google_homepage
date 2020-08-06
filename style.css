@@ -367,9 +367,9 @@ color: grey;
     text-decoration: none;
     background-color: rgb(66, 133, 224);
     color: white;
-    padding: 10px;
+    padding: 15px;
     border-radius: 8px;
-    margin-right:
+    margin-left: 15px;
     
 }
 
@@ -377,7 +377,7 @@ color: grey;
     text-decoration: none;
     color: rgb(66, 133, 224);
     cursor: pointer;
-    padding-right: 15px;
+    padding: 15px;
     margin-left: 120px;
 
 }
@@ -400,7 +400,8 @@ color: grey;
     padding-right: 16px;
     padding-left: 16px;
     margin-left: 200px;
-    margin-right: 1000px;
+    margin-right: 800px;
+    box-sizing: border-box;
     
 }
 
